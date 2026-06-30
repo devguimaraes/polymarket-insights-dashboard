@@ -32,8 +32,8 @@ Dashboard de estudo para exploração de mercados de previsão, consumindo a API
 ## Instalação
 
 ```bash
-git clone https://github.com/<seu-usuario>/polymarket-insights.git
-cd polymarket-insights
+git clone https://github.com/devguimaraes/polymarket-insights-dashboard.git
+cd polymarket-insights-dashboard
 bun install
 ```
 
