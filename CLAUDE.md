@@ -103,3 +103,17 @@ polymarket-insights/
 - Logs estruturados via `pino` nos Route Handlers (formato JSON, nunca `console.log`).
 - Sentry para error tracking (tier gratuito).
 - Erros nunca são silenciados — logar e reportar.
+
+## Agent skills
+
+### Issue tracker
+
+Issues são rastreadas no Linear via MCP (`mcp__plugin_linear_linear__*`). Veja `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Usa os nomes canônicos padrão: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. Veja `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Multi-contexto — `CONTEXT-MAP.md` na raiz aponta para `CONTEXT.md` por workspace do monorepo. Veja `docs/agents/domain.md`.
